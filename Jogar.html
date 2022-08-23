@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css" />
+    <title>My Little Farm</title>
+</head>
+<body>
+    <div id="container">
+        <div id="containerCentro">
+            <div id="playerInfo">
+                <div id="dinheiro">
+                    <h4>4500</h4>
+                </div>
+                <div id="xp">
+                    <h4>4355</h4>
+                </div>
+            </div>
+
+            <div id="packPlantas">
+                <ul id="listaDePlantas">
+                    <li id="plantaVenda1" class="plantaVenda">
+                        <div class="fundoPreco">
+                            <p>R$10</p>
+                        </div>
+                        <img src="assets/algodao_grande.png">
+                    </li>
+                    <li id="plantaVenda2" class="plantaVenda">
+                        <div class="fundoPreco">
+                            <p>R$100</p>
+                        </div>
+                        <img src="assets/alho_grande.png">
+                    </li>
+                    <li id="plantaVenda3" class="plantaVenda">
+                        <div class="fundoPreco">
+                            <p>R$1000</p>
+                        </div>
+                        <img src="assets/batata_grande.png">
+                    </li>
+                    <li id="plantaVenda4" class="plantaVenda">
+                        <div class="fundoPreco">
+                            <p>R$10000</p>
+                        </div>
+                        <img src="assets/cebola_grande.png">
+                    </li>
+                </ul>
+                <ul id="redeDePlantas">
+                    <!--As plantas aparecerão aqui!-->
+                </ul>
+                <ul id="menu">
+                    <li>
+                        <input id="lojaPlantas" class="botao" type="button" value="ABRIR LOJA DE PLANTAS">
+                    </li>
+                    <li>
+                        <input class="botao" type="button" value="ABRIR LOJA DE BOOST">
+                    </li>
+                    <li>
+                        <input class="botao" type="button" value="SALVAR PROGRESSO">
+                    </li>
+                </ul> 
+            </div>
+        </div>
+    </div>
+</body>
+<script src="src/Configs.js" defer></script>
+<script src="src/interfaces/Interfaces.js" defer></script>
+<script src="src/player/Player.js" defer></script>
+<script src="src/plantas/Planta.js" defer></script>
+<script src="src/Launcher.js" defer></script>
+</html>

@@ -1,0 +1,16 @@
+{
+    "rpc.appName": "Visual Studio Code",
+    "rpc.buttonActiveLabel": "Ver repositório",
+    "rpc.detailsDebugging": "Debugando {file_name}",
+    "rpc.detailsEditing": "Em {workspace} {problems}",
+    "rpc.detailsIdling": "Perdendo tempo",
+    "rpc.detailsViewing": "Em {workspace} {problems}",
+    "rpc.largeImage": "Editando um arquivo {LANG}",
+    "rpc.largeImageIdling": "Ausente",
+    "rpc.lowerDetailsDebugging": "Debugando: {workspace}",
+    "rpc.lowerDetailsEditing": "Mexendo em {file_name}:{current_line}:{current_column}",
+    "rpc.lowerDetailsIdling": "Ausente",
+    "rpc.lowerDetailsNoWorkspaceFound": "Sem workspace.",
+    "rpc.lowerDetailsViewing": "Vendo {file_name}",
+    "rpc.problemsText": "- {problemsCount} problemas"
+}
